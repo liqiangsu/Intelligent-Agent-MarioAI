@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71" started-at="2014-08-15T14:13:04Z" finished-at="2014-08-15T14:13:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71" started-at="2014-08-15T14:13:04Z" finished-at="2014-08-15T14:13:05Z">
+      <class name="ch.idsia.unittests.CmdLineOptionsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="setUp" is-config="true" duration-ms="26" started-at="2014-08-16T00:13:04Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAllOptionsHaveDefaults()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="testAllOptionsHaveDefaults" duration-ms="5" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllOptionsHaveDefaults -->
+        <test-method status="PASS" signature="testDefaultAgent()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="testDefaultAgent" duration-ms="2" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultAgent -->
+        <test-method status="PASS" signature="testReset()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="testReset" duration-ms="2" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReset -->
+        <test-method status="PASS" signature="testSetArgs()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="testSetArgs" duration-ms="1" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetArgs -->
+        <test-method status="PASS" signature="testSetLevelEnemies()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="testSetLevelEnemies" duration-ms="1" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetLevelEnemies -->
+        <test-method status="PASS" signature="testSetMarioInvulnerable()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="testSetMarioInvulnerable" duration-ms="1" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetMarioInvulnerable -->
+        <test-method status="PASS" signature="testStop()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="testStop" duration-ms="1" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method status="FAIL" signature="testTotalNumberOfOptions()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="testTotalNumberOfOptions" duration-ms="1" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<56> but was:<57>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<56> but was:<57>
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:283)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:195)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at ch.idsia.unittests.CmdLineOptionsTest.testTotalNumberOfOptions(CmdLineOptionsTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalNumberOfOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:null(ch.idsia.unittests.CmdLineOptionsTest)]" name="tearDown" is-config="true" duration-ms="0" started-at="2014-08-16T00:13:05Z" finished-at="2014-08-16T00:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ch.idsia.unittests.CmdLineOptionsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
